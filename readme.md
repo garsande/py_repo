@@ -29,7 +29,8 @@ show the commit history for the currently active branch
 git log featureOne featureTwo
 show the commits on featureTwo branch that are not on featureOne
 
-touch test.ext
+touch test.txt
 The touch command creates a new, empty file if the file does not already exist.If the file already exists, it updates the file’s last modified timestamp instead of overwriting it.
 
-
+mv test.txt sample.txt
+This command is used to move files and directories from one location to another or to rename them. It changes the file's location or name without creating a duplicate.
