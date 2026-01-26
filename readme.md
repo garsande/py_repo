@@ -63,4 +63,10 @@ tree -a ./testing
 
 The tree command displays the complete hierarchical structure of a directory, showing all its subdirectories and files in a tree-like format
 
+awk '{print}' sample.txt
+awk -F' ' '{print $1, $4}' sample.txt
+awk -F' ' '{print $1, "has salary", $4}' sample.txt
+awk -f print_salary.awk sample.txt
+The AWK command is a text-processing and pattern-scanning tool in Linux used for manipulating data and generating formatted reports. It reads files line by line, applies patterns, and performs specified actions on matching lines.
+
 
