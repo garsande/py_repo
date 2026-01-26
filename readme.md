@@ -46,3 +46,5 @@ find ./testing/ -name test.txt
 
 This command will locate and display the path to the file if it exists in the specified directory or its subdirectories.
 
+sudo apt install tree
+The command sudo apt install is used to install software packages.
