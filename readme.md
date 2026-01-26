@@ -89,3 +89,14 @@ Mon Jan 25 21:38:39 EST 2027
 
 The date command displays the current date and time in a variety of formats and set the system date and time. It can also be used to display future or old dates and check the system timezone which may be helpful in determining various issues.
 
+file sample.txt
+sample.txt: ASCII text
+
+file testing/*
+testing/sample1:  directory
+testing/sample2:  directory
+testing/test.txt: empty
+
+The 'file' command is used for determining the type of a file. It identifies file types by examining their content rather than their file extensions, making it an indispensable tool for users who work with various file formats.
+
+
