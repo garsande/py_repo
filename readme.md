@@ -114,3 +114,7 @@ ls -ltr sample.txt
 
 The chmod (change mode) command is used to set or modify file and directory permissions. Every file in Linux has an owner, a group, and associated permissions that determine who can read, write, or execute the file. Using chmod, users can control these permissions to ensure proper access and security.
 
+for command - for i in {1..5}; do  echo $i; done
+The for command is used in shell scripting to iterate over a set of values or perform set of tasks repeatedly. The for loop allows users to create easy to maintain automated operations.
+
+
