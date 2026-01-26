@@ -69,4 +69,6 @@ awk -F' ' '{print $1, "has salary", $4}' sample.txt
 awk -f print_salary.awk sample.txt
 The AWK command is a text-processing and pattern-scanning tool in Linux used for manipulating data and generating formatted reports. It reads files line by line, applies patterns, and performs specified actions on matching lines.
 
+md5sum sample.txt
+The md5sum is designed to verify data integrity using Message Digest Algorithm 5. MD5 is 128-bit cryptographic hash and if used properly it can be used to verify file authenticity and integrity.
 
