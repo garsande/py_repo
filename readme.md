@@ -48,3 +48,19 @@ This command will locate and display the path to the file if it exists in the sp
 
 sudo apt install tree
 The command sudo apt install is used to install software packages.
+
+tree -a ./testing
+./testing
+├── sample1
+│   └── sample1.txt
+├── sample2
+│   ├── sample2.txt
+│   └── sample3
+│       └── sample3.txt
+└── test.txt
+
+4 directories, 4 files
+
+The tree command displays the complete hierarchical structure of a directory, showing all its subdirectories and files in a tree-like format
+
+
