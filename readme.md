@@ -99,4 +99,18 @@ testing/test.txt: empty
 
 The 'file' command is used for determining the type of a file. It identifies file types by examining their content rather than their file extensions, making it an indispensable tool for users who work with various file formats.
 
+ls -ltr sample.txt
+-rw-r--r-- 1 garsande garsande 110 Jan 25 20:13 sample.txt
+chmod 755 sample.txt
+ls -ltr sample.txt
+-rwxr-xr-x 1 garsande garsande 110 Jan 25 20:13 sample.txt
+chmod 744 sample.txt
+ls -ltr sample.txt
+-rwxr--r-- 1 garsande garsande 110 Jan 25 20:13 sample.txt
+chmod 644 sample.txt
+ls -ltr sample.txt
+-rw-r--r-- 1 garsande garsande 110 Jan 25 20:13 sample.txt
+
+
+The chmod (change mode) command is used to set or modify file and directory permissions. Every file in Linux has an owner, a group, and associated permissions that determine who can read, write, or execute the file. Using chmod, users can control these permissions to ensure proper access and security.
 
