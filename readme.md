@@ -41,3 +41,8 @@ The mkdir command is used to make (create) a new directory
 cd testing
 The cd command is used to change the current working directory
 
+find ./testing/ -name test.txt
+./testing/test.txt
+
+This command will locate and display the path to the file if it exists in the specified directory or its subdirectories.
+
