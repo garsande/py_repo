@@ -34,3 +34,10 @@ The touch command creates a new, empty file if the file does not already exist.I
 
 mv test.txt sample.txt
 This command is used to move files and directories from one location to another or to rename them. It changes the file's location or name without creating a duplicate.
+
+mkdir testing
+The mkdir command is used to make (create) a new directory
+
+cd testing
+The cd command is used to change the current working directory
+
