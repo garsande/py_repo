@@ -72,3 +72,20 @@ The AWK command is a text-processing and pattern-scanning tool in Linux used for
 md5sum sample.txt
 The md5sum is designed to verify data integrity using Message Digest Algorithm 5. MD5 is 128-bit cryptographic hash and if used properly it can be used to verify file authenticity and integrity.
 
+date
+Sun Jan 25 21:37:11 EST 2026
+date -u
+Mon Jan 26 02:37:24 UTC 2026
+date -d "12/25/2025"
+Thu Dec 25 00:00:00 EST 2025
+date --date "2 year ago"
+Thu Jan 25 21:38:08 EST 2024
+date --date "yesterday"
+Sat Jan 24 21:38:21 EST 2026
+date -d "next tuesday"
+Tue Jan 27 00:00:00 EST 2026
+date -d "1 year"
+Mon Jan 25 21:38:39 EST 2027
+
+The date command displays the current date and time in a variety of formats and set the system date and time. It can also be used to display future or old dates and check the system timezone which may be helpful in determining various issues.
+
